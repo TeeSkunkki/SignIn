@@ -4,8 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign In</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div id="fullPage">
+        <div id="brandingWrapper" class="float">
+            <div id="branding" class="illustrationClass"></div>
+        </div>
+        <div id="contentWrapper" class="float">
+            <div id="content">
+                <div id="header">
+                    <img class="logoImage" src="">
+                </div>
+                <div id="workArea">
+                    
+    <div id="authArea" class="groupMargin">
+        
+        
+    <div id="loginArea">        
+        <div id="loginMessage" class="groupMargin">Sign In</div>
+
+        <form method="post" id="loginForm" autocomplete="off">
+
+            <div id="formsAuthenticationArea">
+                <div id="userNameArea">
+                    <input id="userNameInput" name="UserName" type="email" value="" tabindex="1" class="text fullWidth" spellcheck="false" placeholder="joku@example.com" autocomplete="off">     
+                </div>
+
+                <div id="passwordArea">
+                     <input id="passwordInput" name="Password" type="password" tabindex="2" class="text fullWidth" placeholder="Salasana" autocomplete="off">                                   
+                </div>
+                <div id="submissionArea" class="submitMargin">
+                    <span id="submitButton" class="submit">Kirjaudu sisään</span>
+                </div>
+            </div>
+            <input id="optionForms" type="hidden" name="AuthMethod" value="FormsAuthentication">
+        </form>                         
+        </div>
 </body>
 </html>
