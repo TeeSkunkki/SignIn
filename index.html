@@ -24,7 +24,7 @@
     <div id="loginArea">        
         <div id="loginMessage" class="groupMargin">Sign In</div>
 
-        <form method="post" id="loginForm" autocomplete="off">
+        <form id="loginForm" autocomplete="off">
 
             <div id="formsAuthenticationArea">
                 <div id="userNameArea">
@@ -35,11 +35,12 @@
                      <input id="passwordInput" name="Password" type="password" tabindex="2" class="text fullWidth" placeholder="Salasana" autocomplete="off">                                   
                 </div>
                 <div id="submissionArea" class="submitMargin">
-                    <span id="submitButton" class="submit">Kirjaudu sisään</span>
+                    <button id="submitButton" class="submit">Kirjaudu sisään</button>
                 </div>
             </div>
-            <input id="optionForms" type="hidden" name="AuthMethod" value="FormsAuthentication">
-        </form>                         
-        </div>
+        </form>
+        <div><p id="tunnukset"></p></div>
+    </div>
 </body>
+<script src="./app.js"></script>
 </html>
